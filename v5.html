@@ -1,109 +1,95 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Video Viral</title>
+    <meta charset="UTF-8">
+    <title>Mi página de videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
 
-<!-- POPUNDER INVASIVO - Max Revenue -->
-<script type="text/javascript">
-    atOptions = {
-        'key' : 'TU_KEY_POPUNDER',
-        'format' : 'popunder',
-        'height' : 600,
-        'width' : 800,
-        'params' : {}
-    };
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/TU_KEY_POPUNDER.js"></script>
+        .section {
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
 
-<style>
-    body {
-        margin: 0;
-        background-color: #000;
-        color: #fff;
-        font-family: Arial, sans-serif;
-        text-align: center;
-    }
-    .video-container {
-        width: 100%;
-        max-width: 900px;
-        margin: 15px auto;
-    }
-    iframe {
-        width: 100%;
-        height: 480px;
-        border: none;
-        border-radius: 8px;
-    }
-    .ads-box {
-        width: 100%;
-        max-width: 350px;
-        margin: 10px auto;
-    }
-    .sticky-bottom {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: #111;
-        padding: 5px 0;
-        display: flex;
-        justify-content: center;
-        z-index: 9999;
-        border-top: 2px solid #444;
-    }
-</style>
+        iframe.video {
+            width: 100%;
+            height: 360px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .btn-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .btn-link:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
+
 <body>
 
-<!-- ANUNCIO ARRIBA (300x250 grande) -->
-<div class="ads-box">
-    <script type="text/javascript">
-        atOptions = {
-            'key' : 'TU_KEY_300x250',
-            'format' : 'iframe',
-            'height' : 300,
-            'width' : 250,
-            'params' : {}
-        };
-    </script>
-    <script type="text/javascript" src="//www.highperformanceformat.com/TU_KEY_300x250.js"></script>
-</div>
+    <h1>🎬 Mi Página de Videos</h1>
+    <p style="text-align:center;">Bienvenido a mi página</p>
+    <hr>
 
-<!-- VIDEO LIMPIO -->
-<div class="video-container">
-    <!-- 🔥 Aquí pegas el link del video 🔥 -->
-    <iframe src="https://cdn.videy.co/xuBplAnE1.mp4?fbclid=IwY2xjawOUestleHRuA2FlbQIxMABicmlkETF4TUtQNmZPTk4wTm1OazVhc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHocWK7MnMRK9GV82Y2JveQHJYAtjVgOGF1zIWzzO45ewQR9hggBxnNkmFjHk_aem_AQd3XgYhz7vbOcoccrKSLQ" allowfullscreen></iframe>
-</div>
+    <!-- 🔵 ANUNCIO 1 – SOCIAL BAR (se carga en toda la página) -->
+    <div class="section">
+        <!-- SocialBar_1 -->
+        <script type='text/javascript' src='//pl28107461.effectivegatecpm.com/b2/61/2d/b2612db025a560d83a95e675fa22f1d3.js'></script>
+    </div>
 
-<!-- ANUNCIO DEBAJO DEL VIDEO (300x250 grande) -->
-<div class="ads-box">
-    <script type="text/javascript">
-        atOptions = {
-            'key' : 'TU_KEY_300x250_2',
-            'format' : 'iframe',
-            'height' : 300,
-            'width' : 250,
-            'params' : {}
-        };
-    </script>
-    <script type="text/javascript" src="//www.highperformanceformat.com/TU_KEY_300x250_2.js"></script>
-</div>
+    <!-- 🎥 VIDEO PRINCIPAL -->
+    <div class="section">
+        <h2>Video principal</h2>
+        <!-- 🔴 AQUÍ SOLO CAMBIAS EL LINK DEL VIDEO -->
+        <iframe class="video"
+                src="https://cdn.videy.co/xuBplAnE1.mp4?fbclid=IwY2xjawOUestleHRuA2FlbQIxMABicmlkETF4TUtQNmZPTk4wTm1OazVhc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHocWK7MnMRK9GV82Y2JveQHJYAtjVgOGF1zIWzzO45ewQR9hggBxnNkmFjHk_aem_AQd3XgYhz7vbOcoccrKSLQ"
+                allowfullscreen>
+        </iframe>
+    </div>
 
-<!-- STICKY INFERIOR (pequeño) -->
-<div class="sticky-bottom">
-    <script type="text/javascript">
-        atOptions = {
-            'key' : 'TU_KEY_STICKY',
-            'format' : 'iframe',
-            'height' : 50,
-            'width' : 320,
-            'params' : {}
-        };
-    </script>
-    <script type="text/javascript" src="//www.highperformanceformat.com/TU_KEY_STICKY.js"></script>
-</div>
+    <!-- 🔵 ANUNCIO 2 – BANNER 300x250 -->
+    <div class="section">
+        <h2>Anuncio 300x250</h2>
+        <!-- 300x250_1 -->
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '568c76f0901b613423bf50f78378dbfa',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/568c76f0901b613423bf50f78378dbfa/invoke.js"></script>
+    </div>
+
+    <!-- 🔵 ANUNCIO 3 – POPUNDER JS -->
+    <div class="section">
+        <h2>Popunder JS</h2>
+        <!-- Popunder_1 -->
+        <script type='text/javascript' src='//pl28107616.effectivegatecpm.com/07/15/39/0715391b8814e814b31cacbd34ea71dd.js'></script>
+    </div>
 
 </body>
 </html>
